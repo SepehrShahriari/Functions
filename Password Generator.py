@@ -1,5 +1,5 @@
 #Dynamic password Generator
-# 1st: import random and string
+
 import random
 import string # for grab all lower and uppercase letter + special characters +  ? numbers ?
 
