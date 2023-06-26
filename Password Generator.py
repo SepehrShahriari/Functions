@@ -5,8 +5,8 @@ import string # for grab all lower and uppercase letter + special characters +  
 
 #the function below needs 3 parameters, min_lenght is number, others are optional parameters
 #min_lenght = how many length user wants he's password include
-#number=True : means the password includs numbers ( user choses )
-#special_characters=True : means the password includs characters( user choses )
+#number=True : means the password includs numbers ( user chooses )
+#special_characters=True : means the password includs characters( user chooses )
 def generate_password( min_lenght , numbers=True, special_characters=True):
     print(numbers, special_characters)
     #here we call letters,numbers and punctuations, then put them in a variable (like: abcdefgABCDEFG)
