@@ -15,13 +15,10 @@ def generate_password( min_lenght , numbers=True, special_characters=True):
     special = string.punctuation # all punctuations (like: !"#$%&'()*+,-./ )
 
     password_ = letter # ouser password atleast will include letters
-    print(password_)
     if numbers == True: # if user needs number in the password 
         password_ += digits
-        print(password_)
     if special_characters == True: # if user needs characters in the password 
         password_ += special
-        print(password_)
 
     pwd = "" # the generated password will keap in PWD 
     meets_criteria = False # for checking that password includs number and special
@@ -47,9 +44,7 @@ def generate_password( min_lenght , numbers=True, special_characters=True):
 
 min_lenght = int(input("enter the minimum lenght: "))
 has_number = input("Do you want to have numbers (y/n) ? ").lower() == "y"
-print(has_number)
 has_special = input("Do you want to have special character (y/n) ? ").lower() == "y"
-print(has_special)
 
 pwd = generate_password(min_lenght, has_number, has_special)
 print("your password is: ", pwd)
