@@ -3,7 +3,7 @@
 import random
 import string # for grab all lower and uppercase letter + special characters +  ? numbers ?
 
-#the function below needs 3 parameters only min_lenght is number, others are optional parameters
+#the function below needs 3 parameters, min_lenght is number, others are optional parameters
 #min_lenght = how many length user wants he's password include
 #number=True : means the password includs numbers ( user choses )
 #special_characters=True : means the password includs characters( user choses )
